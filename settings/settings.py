@@ -131,3 +131,8 @@ LEAFLET_CONFIG = {
     'MIN_ZOOM': 3,
     'MAX_ZOOM': 16,
 }
+
+try:
+    from .local_settings import *
+except:
+    pass

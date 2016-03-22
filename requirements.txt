@@ -1,3 +1,5 @@
-Django
-django-leaflet
+Django==1.9.4
+django-leaflet==0.18.0
 psycopg2
+gunicorn
+gevent==1.1rc3
